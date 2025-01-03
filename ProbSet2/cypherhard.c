@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
   char text[] = "Gremio e o maior!";
   char *input_text = argv[1];
   char new_text[50];
-
+  
   for (int i = 0; i < strlen(text); i++) {
     if (text[i] >= 65 && text[i] <= 90) {
       new_text[i] = input_text[text[i] - 65];
